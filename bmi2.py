@@ -10,11 +10,11 @@ bmi=BMI(name,weight,height)
 
 if bmi<=18.4:
     print("Under weight")
-if bmi>18.4 and bmi<=24.9:
+elif bmi>18.4 and bmi<=24.9:
     print("Normal weight")
-if bmi>24.9 and bmi<=29.9:
+elif bmi>24.9 and bmi<=29.9:
     print("Over weight")
-if bmi>29.9 and bmi<=34.9:
+elif bmi>29.9 and bmi<=34.9:
     print("Obese")
-if bmi>34.9:
+else:
     print("Highly Obese")                
